@@ -7,7 +7,6 @@
 # Introduction
 This repository is about Web/Mobile Programming, a course that I am taking and talk about programming for web/cloud application and mobile applications.
 
-## Technologies
 | Angular | MongoDB | GitHub |
 | :------: | :------: | :------: |
 | ![image1](https://blog.ninja-squad.com/assets/images/angular.png) | ![image1](https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png) | ![image1](https://image.flaticon.com/icons/svg/25/25231.svg) |
