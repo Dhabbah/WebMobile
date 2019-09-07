@@ -19,3 +19,6 @@ Mainly, this is going to have 8 repositories talking about GitHub, HTML, CSS, Ja
 ![image1](https://raw.githubusercontent.com/Dhabbah/WebMobile/master/ICP1/Documentation/README1.JPG)
 
 **Note:** each repo will have a wiki page.
+
+1. [ICP1](https://github.com/Dhabbah/WebMobile/wiki/ICP1)
+2. [ICP2](https://github.com/Dhabbah/WebMobile/wiki/ICP2)
