@@ -1,0 +1,12 @@
+/* this is to import a font from google fonts and use it in my page */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html, body {
+    background-color:#d2ccfe;
+    font-family: 'Open Sans', sans-serif;
+}
+img {
+  height: 100px;
+  width: 100px;
+  padding-bottom:10px;
+}
