@@ -1,0 +1,36 @@
+<!--This is Jumbotron from bootstrap -->
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Calculator</h4>
+  <p> This site shows a simple calculator!</p>
+  <hr>
+  <p class="mb-0">Have fun!</p>
+</div>
+
+<!--Here where we store and get the result-->
+<div class="container">
+  <div class="row">
+  <div class="alert alert-primary" role="alert">
+    {{ mainText }}
+  </div>
+  </div>
+<!--here is the buttons for all the numbers and operators-->
+  <button type="button" class="btn btn-outline-secondary btnSize"  (click)="pressKey('1')">1</button>
+  <button type="button" class="btn btn-outline-secondary btnSize" (click)="pressKey('2')">2</button>
+  <button type="button" class="btn btn-outline-secondary btnSize" (click)="pressKey('3')">3</button>
+  <button type="button" class="btn btn-outline-primary btnSize" (click)="pressKey('/')">/</button><br>
+  <button type="button" class="btn btn-outline-secondary btnSize" (click)="pressKey('4')">4</button>
+  <button type="button" class="btn btn-outline-secondary btnSize" (click)="pressKey('5')">5</button>
+  <button type="button" class="btn btn-outline-secondary btnSize" (click)="pressKey('6')">6</button>
+  <button type="button" class="btn btn-outline-primary btnSize" (click)="pressKey('x')">x</button><br>
+  <button type="button" class="btn btn-outline-secondary btnSize" (click)="pressKey('7')">7</button>
+  <button type="button" class="btn btn-outline-secondary btnSize" (click)="pressKey('8')">8</button>
+  <button type="button" class="btn btn-outline-secondary btnSize" (click)="pressKey('9')">9</button>
+  <button type="button" class="btn btn-outline-primary btnSize" (click)="pressKey('+')">+</button><br>
+  <button type="button" class="btn btn-outline-success btnSize" (click)="getAnswer()">=</button>
+  <button type="button" class="btn btn-outline-secondary btnSize" (click)="pressKey('0')">0</button>
+  <button type="button" class="btn btn-outline-secondary btnSize" (click)="pressKey('.')">.</button>
+  <button type="button" class="btn btn-outline-primary btnSize" (click)="pressKey('-')">-</button>
+</div>
+<!--</div>-->
+
+

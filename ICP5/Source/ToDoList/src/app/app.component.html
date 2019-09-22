@@ -1,0 +1,66 @@
+<!--The header-->
+<header>
+  <h1>To Do List</h1>
+</header>
+<div class=" center mt-5 ">
+  <div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="input-group">
+        <input type="text" class="form-control" [(ngModel)]="task" />
+      </div><br>
+      <div class="text-center">
+        <button class="btn btn-primary"  (click)="addItem()">Enter</button>
+      </div>
+    </div>
+  </div>
+<!--To display the list information and the button remove-->
+<div class="row mt-3" *ngFor="let task of tasks; let i = index;">
+  <div class="col" >
+  <ul class="list-group" >
+    <li class="list-group-item" >
+      <span> {{ task.name }} </span>
+<!--      span> {{ task.name }} </span>-->
+    </li>
+    <button type="button" class="btn btn-outline-primary" (click)="removeItem(i)">Remove</button>
+
+  </ul>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+<!--<div id="inputPart">-->
+<!--  <form class="taskInput">-->
+<!--    <input #newTask (keyup.enter)="addTask(newTask.value)">-->
+<!--    <button (click)="addTask(newTask.value)">TaskToDo</button>-->
+<!--  </form>-->
+<!--</div>-->
+<!--<div class="MainPart">-->
+<!--  <div class="section">-->
+<!--    <h3>ToDoSection</h3>-->
+<!--    <div class="list">-->
+<!--      <div id="flist" class="task" *ngFor="let Task of Tasks;">{{ Task }} <span class="timeStamp"> {{ today | date }} <input type="checkbox" (change)="onGoing()"></span>-->
+<!--      </div>-->
+<!--      <button (click)="deleteAll()">delete</button>-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  <div class="section">-->
+<!--    <h3>WIPSection</h3>-->
+<!--    <div class="list">-->
+<!--      <div id="wlist" class="task" *ngFor="let Task of wipTasks;">{{ Task }} <span class="timeStamp"> {{ today | date }} <input type="checkbox" (change)="done()"></span></div>-->
+<!--    </div>-->
+<!--    <button (click)="deleteAllWip()">delete</button>-->
+<!--  </div>-->
+
+<!--  <div class="section">-->
+<!--    <h3>DoneSection</h3>-->
+<!--    <div class="list">-->
+<!--      <div id="dlist" class="task" *ngFor="let Task of doneTasks;">{{ Task }} <span class="timeStamp"> {{ today | date }} <input type="checkbox" (change)="done()"></span></div>-->
+<!--    </div>-->
+<!--    <button (click)="deleteAllDone()">delete</button>-->
+<!--  </div>-->
+<!--</div>-->
