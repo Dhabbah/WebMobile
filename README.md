@@ -24,3 +24,5 @@ Mainly, this is going to have 8 repositories talking about GitHub, HTML, CSS, Ja
 2. [ICP2](https://github.com/Dhabbah/WebMobile/wiki/ICP2)
 3. [ICP3](https://github.com/Dhabbah/WebMobile/wiki/ICP3)
 4. [ICP4](https://github.com/Dhabbah/WebMobile/wiki/ICP4)
+5. [ICP5](https://github.com/Dhabbah/WebMobile/wiki/ICP5)
+6. [ICP6](https://github.com/Dhabbah/WebMobile/wiki/ICP6)
