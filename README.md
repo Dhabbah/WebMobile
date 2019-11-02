@@ -28,3 +28,4 @@ Mainly, this is going to have 8 repositories talking about GitHub, HTML, CSS, Ja
 6. [M1 ICP6](https://github.com/Dhabbah/WebMobile/wiki/ICP6)
 7. [M1 ICP7](https://github.com/Dhabbah/WebMobile/wiki/ICP7)
 8. [M2 ICP1](https://github.com/Dhabbah/WebMobile/wiki/M2ICP1)
+9. [M2 ICP2](https://github.com/Dhabbah/WebMobile/wiki/M2ICP2)
