@@ -1,11 +1,5 @@
-# Students Information
-
-| Name | Class ID | Email |
-| :------: | :------: | :------: |
-| Khalid Dhabbah | 12 | kmdk2t@mail.umkc.edu |
-
 # Introduction
-This repository is about Web/Mobile Programming, a course that I am taking and talk about programming for web/cloud application and mobile applications.
+This repository is about Web/Mobile Programming, a course that I took and talked about programming for web/cloud application and mobile applications.
 
 | Angular | MongoDB | GitHub |
 | :------: | :------: | :------: |
